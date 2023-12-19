@@ -1,0 +1,117 @@
+/* CardsDisplay.css */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 29, 43);
+    
+  }
+  p{
+    justify-self:left;
+  }
+
+
+  
+  .card {
+    background-color: #f6f2f5;
+    border: 2px solid #c0f2d2;
+    border-radius: 5px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    text-align:center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+   
+  }
+  .card:hover{
+    transform: scale(1.05);
+  }
+  .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  
+  .card h3 {
+    font-size:20px;
+    margin-top: 5px;
+  }
+  
+  .card p {
+    margin: 2px;
+    font-size: 15px;
+    font-style:normal;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */ /* Set the height as needed */
+  }
+  .search-container input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(47, 0, 255);
+    margin: 5px;
+  }
+
+  .custom-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  .rating {
+    color: #ffc107; /* Star color */
+    font-size: 25px;
+  }
+  .indian-currency::before {
+    content: "\20B9"; /* Unicode for the Indian Rupee symbol ₹ */
+    display: inline-block;
+    font-size: px; /* Adjust the font size as needed */
+    color: #000; /* Set the color of the symbol */
+    /* You can add more CSS properties for styling the symbol here */
+  }
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fc6f74;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .sizes button {
+    margin: 3px;
+    background-color: #fc6f74;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+  }
+  
+  .sizes button:hover {
+    background-color: #2980b9;
+  }
+  
+
+  

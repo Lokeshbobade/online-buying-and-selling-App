@@ -1,0 +1,13 @@
+.items{
+    margin-top: 5px;
+      border: 1px solid;
+      height: 300px;
+      width: 400px;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  .title{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }

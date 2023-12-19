@@ -1,0 +1,46 @@
+.custom-carousel-image{
+ height: 400px;
+ width: 80%;
+ text-align: center;
+ margin-left: 10%;
+}
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+/* UserProfile.css */
+.user-profile {
+  background: linear-gradient(to bottom, #b2dbff, #a8c1e9); /* Example gradient background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile h2 {
+  color: #333; /* Text color */
+}
+
+.user-profile button {
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-profile button:hover {
+  background-color: #0056b3; 
+}
+
+.add-product{
+  background-color: #51abff;
+}

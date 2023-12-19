@@ -1,0 +1,21 @@
+@import "~font-awesome/css/font-awesome.min.css";
+
+.navbar-nav .nav-link {
+    color: white; 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .links{
+    margin-right: auto;
+  }
+  .icons{
+    margin-left: auto;
+  }
+  .user-nav{
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .navbar-brand-name{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
